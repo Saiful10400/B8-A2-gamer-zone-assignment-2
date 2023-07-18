@@ -81,3 +81,63 @@ nav {
 
 
 /* header end. */
+
+.banner{
+ 
+  display: flex;
+
+}
+
+.banner-ticon{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.banner-title>h2{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.banner-title>h1{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 95px;
+font-weight: 800;
+margin-bottom: 24px;
+margin-left: -10px;
+}
+
+.banner-title>h4{
+  margin-bottom: 18px;
+}
+.banner-title>h4 i{
+
+  color: #ff42a5;
+  height: 24px;
+  width: 24px;
+}
+.banner-title>h4 p{
+
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #534C64;
+}
+
+
+
+
+
+
+
+.banner-img{
+  width: 50%;
+}

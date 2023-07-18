@@ -36,6 +36,41 @@
 
     }
 
+    /* banner section */
+
+    .banner {
+        width: 80%;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-ticon{
+        width: 100%;
+        padding: 56px;
+    }
+    .banner-title{
+        
+    }
+
+    .banner-title>h1 {
+        font-size: 58px;
+    
+    }
+    .banner-title>h2 {
+        font-size: 31px;
+       
+    }
+    .banner-title>h4 p {
+        font-size: 12px;
+        margin: 0;
+     
+    }
 
 }
 
