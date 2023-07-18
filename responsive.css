@@ -1,0 +1,80 @@
+/* this is for mobile device. */
+
+@media screen and (max-width:425px) {
+
+
+    nav {
+
+        flex-direction: column;
+        gap: 62px;
+
+    }
+
+    .nav-logo,
+    .nav-manus {
+        width: 100%;
+        justify-content: center;
+
+
+    }
+
+    .nav-manus {
+        flex-direction: column;
+    }
+
+    .nav-manus a,
+    .nav-span p {
+
+        font-size: 13px;
+
+    }
+
+    .nav-span {
+
+
+        padding: 9px 3px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* for tab */
+
+@media screen and (max-width:768px) {
+
+   
+    .nav-logo h1 {
+        font-size: 36px;
+
+    }
+
+    .nav-logo img {
+        height: 28px;
+    }
+
+    .nav-span {
+
+        padding: 8px 15px;
+
+    }
+
+    .nav-manus a {
+      
+        font-size: 12px;
+       
+    }
+
+    .nav-span p {
+        font-size: 13px;
+
+    }
+
+}
