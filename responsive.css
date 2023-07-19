@@ -393,4 +393,57 @@
     margin-top: 5px;
 }
 
+/* carrear secton */
+
+.carrer-container{
+    width: 85%;
+    margin: auto;
+    
+  }
+
+  .carrer-title>h1 {
+    line-height: 60px;
+    font-size: 39px;
+    color: white;
+    font-weight: 700;
+}
+
+.carrer-title>p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 32px;
+}
+.carrer-list li {
+    font-size: 9px;
+    font-weight: 600;
+    list-style: none;
+    color: white;
+    line-height: 22px;
+}
+
+.carrer-btn {
+    background-color: white;
+    color: #ff42a5;
+    margin-top: 40px;
+    font-size: 9px;
+    font-weight: 600;
+    padding: 13px 23px;
+    border-radius: 48px;
+    border: none;
+    cursor: pointer;
+}
+
+.carrer {
+    background-color: #ff42a5;
+    padding: 38px 0;
+    margin-top: 50px;
+}
+
+.carrer-img {
+    width: 50%;
+    padding-top: 83px;
+}
+
 }
