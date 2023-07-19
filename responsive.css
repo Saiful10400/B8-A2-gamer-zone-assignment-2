@@ -136,6 +136,7 @@
     .video-box> p {
         font-size: 15px;
         margin-top: 6px;
+        text-align: center;
     }
 
     .game-video h1 {
@@ -149,6 +150,60 @@
 
 
     }
+
+    .fa-card {
+        font-size: 37px;
+       
+    }
+
+    .layer p {
+       
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+
+    /* instant play seciton */
+
+    .play-in{
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+        padding: 40px 0;
+      
+      }
+
+      .play-in-title-container{
+        width: 100%;
+        
+      }
+
+      .play-in-title{
+        text-align: center;
+      }
+
+      .play-in-title h1 {
+      
+        font-size: 41px;
+        line-height: 55px;
+    }
+
+      .play-in-img{
+        width: 80%;
+        margin-left: 60px;
+        margin-top: 30px;
+     
+      
+      }
+
+      .parent-img{
+        width: 100%;
+      }
+
+      .float-img {
+   
+        width: 37%;
+      }
 
 }
 
@@ -250,5 +305,34 @@
     margin: auto;
 
   }
+
+  .play-in{
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+  }
+
+  .play-in-title{
+    text-align: center;
+    margin-left: -70px;
+  }
+
+  .play-in-title h1 {
+
+    font-size: 36px;
+    line-height: 43px;
+}
+.play-in-title p {
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.video-box> p {
+    font-size: 12px;
+   
+    line-height: 16px;
+ 
+    margin-top: 5px;
+}
 
 }
