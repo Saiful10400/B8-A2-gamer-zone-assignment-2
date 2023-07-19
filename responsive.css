@@ -151,6 +151,10 @@
 
     }
 
+    .game-video {
+        margin-top: 33px;
+    }
+
     .fa-card {
         font-size: 37px;
        
@@ -174,18 +178,20 @@
       }
 
       .play-in-title-container{
-        width: 100%;
+        width: 118%;
+        
         
       }
 
       .play-in-title{
+        width: 100%;
         text-align: center;
       }
 
       .play-in-title h1 {
       
         font-size: 41px;
-        line-height: 55px;
+        /* line-height: 55px; */
     }
 
       .play-in-img{
