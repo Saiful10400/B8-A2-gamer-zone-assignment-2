@@ -296,6 +296,46 @@
         font-size: 10px;
     }
 
+
+
+    /* footer section */
+
+    .footer-container{
+        width: 85%;
+        margin: auto;
+        text-align: center;
+      }
+
+      .footer-menu{
+        gap: 40px;
+      }
+
+      .footer-menu li{
+        font-size: 17px;
+        font-weight: 400;
+      }
+
+      .footer-icon{
+        gap: 72px;
+      }
+
+      .footer-icon a i{
+        font-size: 45px;
+      }
+
+      .footer-text{
+        gap: 40px;
+        font-weight: 400;
+      }
+
+      .footer-container h3{
+        margin-top: 72px;
+        font-weight: 300;
+      }
+
+      .for-res{
+        margin-left: 31px;
+      }
 }
 
 
@@ -477,6 +517,13 @@
 .carrer-img {
     width: 50%;
     
+}
+
+.library{
+    width: 85%;
+    margin: auto;
+    /* gap: 3%;
+    padding: 20px 0; */
 }
 
 }
