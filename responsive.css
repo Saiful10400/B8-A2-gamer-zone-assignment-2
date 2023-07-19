@@ -211,6 +211,58 @@
         width: 37%;
       }
 
+
+      /* carrer responsive */
+
+      .carrer{
+        
+        padding: 20px 0;
+      }
+      .carrer-container{
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+      }
+
+      .carrer-img,.carrer-title{
+        width: 100%;
+      }
+
+
+      .carrer-title>h1 {
+        line-height: 51px;
+        font-size: 23px;
+      
+     
+    }
+
+    .carrer-title>p {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 16px;
+       
+      
+    }
+    .carrer-list li {
+        font-size: 9px;
+      
+      
+        line-height: 22px;
+    }
+
+    .carrer-btn {
+        background-color: white;
+        color: #ff42a5;
+        margin-top: 29px;
+        margin-bottom: 100px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 9px 19px;
+        border-radius: 48px;
+        border: none;
+        cursor: pointer;
+    }
+
 }
 
 

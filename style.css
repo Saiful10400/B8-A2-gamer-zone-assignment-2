@@ -374,3 +374,91 @@ margin-top: 24px;
   left: -17%;
   width: 37%;
 }
+
+
+/* carrer seciton */
+
+.carrer{
+  background-color: #ff42a5;
+  padding: 120px 0;
+}
+
+.carrer-container{
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.carrer-title{
+  width: 50%;
+}
+
+.carrer-title>h1{
+
+  line-height: 60px;
+  font-size: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.carrer-title>p{
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: white;
+margin-bottom: 32px;
+
+}
+
+
+
+
+
+/*  */
+.carrer-list{
+  display:flex;
+  width: 100%;
+
+}
+
+.list-left{
+  width: 50%;
+}
+
+.list-righ{
+  width: 50%;
+  text-align: right;
+}
+/*  */
+
+
+
+
+
+.carrer-img{
+  width: 50%;
+}
+
+.carrer-img img{
+  width: 100%;
+}
+
+.carrer-list li{
+  font-size: 20px;
+  font-weight: 600;
+  list-style: none;
+  color: white;
+  line-height: 40px;
+}
+
+.carrer-btn{
+  background-color: white;
+  color: #ff42a5;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 40px;
+  border-radius: 48px;
+  border: none;
+  cursor: pointer;
+}
