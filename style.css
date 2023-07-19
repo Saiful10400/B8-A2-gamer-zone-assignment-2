@@ -150,16 +150,68 @@ margin-left: -10px;
 .left-btn{
   margin-right: 24px;
 }
-
-
-
-
-
-
-
 .banner-img{
   width: 50%;
 }
 .banner-img img{
   width: auto;
+}
+
+/*  */
+
+
+/* identity section. */
+
+.identity{
+  background-color: #fff9fc;
+  padding: 95px 0;
+}
+
+.identity-container{
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.id-title{
+  width: 40%;
+  text-align: right;
+}
+
+.id-title h2{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 24px;
+}
+
+.id-title p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.id-title h4{
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #534C64;
+}
+.id-title h3{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #534C64;
+}
+
+.id-img{
+  width: 60%;
+}
+.id-img img{
+  width: 100%;
 }

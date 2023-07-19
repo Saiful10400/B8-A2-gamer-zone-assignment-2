@@ -76,6 +76,48 @@
      padding: 16px 24px;
  }
 
+ /* indentity section. */
+
+ .identity-container{
+
+    width: 85%;
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+
+  .identity{
+    padding: 20px 0;
+  }
+  .id-title,.id-img{
+    width: 100%;
+  }
+
+  .id-title{
+    text-align: center;
+  }
+
+  .id-title h3 {
+    font-size: 21px;
+
+}
+
+.id-title h4 {
+    margin-top: 24px;
+    font-size: 20px;
+
+}
+
+.id-title p {
+    font-size: 12px;
+
+}
+
+.id-title h2 {
+    font-size: 36px;
+
+}
+
+
 }
 
 
@@ -141,4 +183,8 @@
         font-size: 12px;
         padding: 16px 24px;
     }
+
+
+/* identity section */
+
 }
