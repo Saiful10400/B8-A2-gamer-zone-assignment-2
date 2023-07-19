@@ -462,3 +462,44 @@ margin-bottom: 32px;
   border: none;
   cursor: pointer;
 }
+
+
+/* games library */
+
+.library{
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 110px 0;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+}
+
+.game-box{
+  flex-basis: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 33px;
+  padding: 5px;
+    border: 2px solid transparent;
+    transition: .2s;
+    cursor: pointer;
+  
+}
+
+
+
+.game-box span{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.game-box:hover{
+  color: #ff42a5;
+  border: 2px solid #ff42a5;
+}
