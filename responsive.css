@@ -71,6 +71,10 @@
         margin: 0;
      
     }
+    .default-btn-pink,.default-btn-blue{
+     font-size: 12px;
+     padding: 16px 24px;
+ }
 
 }
 
@@ -112,4 +116,29 @@
 
     }
 
+    /* banner section */
+
+    .banner-img img{
+        width: 92%%;
+      }
+
+      .banner-title>h4 p {
+        margin-left: 2px;
+        font-size: 14px;
+     
+    }
+
+    .banner-title>h1 {
+        font-size: 78px;
+    }
+
+    .banner-title>h2 {
+        font-size: 36px;
+       
+    }
+
+    .default-btn-pink,.default-btn-blue{
+        font-size: 12px;
+        padding: 16px 24px;
+    }
 }

@@ -10,6 +10,21 @@
   font-family: Work Sans;
 }
 
+/* default button */
+
+.default-btn-pink,.default-btn-blue{
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff42a5;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 48px;
+  border: none;
+}
+.default-btn-blue{
+  background-color: #4ec5f7;
+}
+
 /* hader section css */
 
 nav {
@@ -132,6 +147,10 @@ margin-left: -10px;
   color: #534C64;
 }
 
+.left-btn{
+  margin-right: 24px;
+}
+
 
 
 
@@ -140,4 +159,7 @@ margin-left: -10px;
 
 .banner-img{
   width: 50%;
+}
+.banner-img img{
+  width: auto;
 }
