@@ -445,10 +445,10 @@ margin-bottom: 32px;
 
 .carrer-list li{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   list-style: none;
   color: white;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .carrer-btn{

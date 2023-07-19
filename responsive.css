@@ -228,6 +228,15 @@
         width: 100%;
       }
 
+      .carrer-img{
+        padding: 0;
+        
+      }
+
+      .carrer-img img{
+        width: 200%;
+      }
+
 
       .carrer-title>h1 {
         line-height: 51px;
@@ -443,7 +452,7 @@
 
 .carrer-img {
     width: 50%;
-    padding-top: 83px;
+    
 }
 
 }
