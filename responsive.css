@@ -6,7 +6,7 @@
     nav {
 
         flex-direction: column;
-        gap: 62px;
+        gap: 27px;
 
     }
 
@@ -46,6 +46,7 @@
 
     .banner-img{
         width: 100%;
+        margin-bottom: 20px;
     }
     .banner-img img{
         width: 100%;
@@ -53,6 +54,7 @@
     .banner-ticon{
         width: 100%;
         padding: 56px;
+        margin-bottom: 20px;
     }
     .banner-title{
         
@@ -86,7 +88,7 @@
   }
 
   .identity{
-    padding: 20px 0;
+    padding: 55px 0;
   }
   .id-title,.id-img{
     width: 100%;
@@ -109,6 +111,7 @@
 
 .id-title p {
     font-size: 12px;
+    padding: 20px 40px;
 
 }
 
@@ -316,7 +319,7 @@
       }
 
       .footer-icon{
-        gap: 72px;
+        gap: 53px;
       }
 
       .footer-icon a i{
@@ -334,7 +337,7 @@
       }
 
       .for-res{
-        margin-left: 31px;
+        margin-left: 0px;
       }
 }
 
@@ -349,7 +352,9 @@
 
 @media screen and (max-width:768px) {
 
-   
+   nav{
+    padding: 20px;
+   }
     .nav-logo h1 {
         font-size: 36px;
 
@@ -361,7 +366,7 @@
 
     .nav-span {
 
-        padding: 8px 15px;
+        padding: 8px 9px;
 
     }
 
@@ -384,16 +389,16 @@
 
       .banner-title>h4 p {
         margin-left: 2px;
-        font-size: 14px;
+        font-size: 12px;
      
     }
 
     .banner-title>h1 {
-        font-size: 78px;
+        font-size: 60px;
     }
 
     .banner-title>h2 {
-        font-size: 36px;
+        font-size: 27px;
        
     }
 
@@ -420,7 +425,7 @@
 }
 
 .id-title h4 {
-    margin-top: 12px;
+    margin-top: 32px;
     font-size: 14px;
 
 }
@@ -524,6 +529,31 @@
     margin: auto;
     /* gap: 3%;
     padding: 20px 0; */
+}
+
+.footer-menu li{
+    font-size: 16px;
+}
+.footer-menu{
+    gap: 42px;
+}
+
+.footer-icon a i{
+    font-size: 32px;
+}
+
+.footer-text li{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.footer-container h3{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.game-video{
+    margin-top: 10px;
 }
 
 }

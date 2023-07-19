@@ -553,6 +553,7 @@ footer{
   font-size: 18px;
   font-weight: 600;
   color: white;
+  cursor: pointer;
 }
 
 .footer-icon{
@@ -584,6 +585,7 @@ footer{
   font-size: 16px;
   font-weight: 500;
   list-style: none;
+  cursor: pointer;
 }
 
 .footer-container h3{
@@ -592,3 +594,5 @@ footer{
   font-weight: 500;
   margin-top: 28px;
 }
+
+.for-res
