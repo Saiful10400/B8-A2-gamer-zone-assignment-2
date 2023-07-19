@@ -161,7 +161,7 @@
     /* banner section */
 
     .banner-img img{
-        width: 92%%;
+        width: 92%;
       }
 
       .banner-title>h4 p {
@@ -186,5 +186,31 @@
 
 
 /* identity section */
+
+.id-title h2 {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+.id-title {
+
+    padding-right: 31px;
+}
+.id-title p {
+    font-size: 8px;
+    line-height: 13px;
+    margin-bottom: 14px;
+}
+
+.id-title h4 {
+    margin-top: 12px;
+    font-size: 14px;
+
+}
+
+.id-title h3 {
+    font-size: 15px;
+    line-height: 23px;
+
+}
 
 }
